@@ -1,0 +1,18 @@
+# Use the latest versions that work together
+langchain
+langchain-community
+langchain-groq
+
+# Database
+SQLAlchemy==2.0.20
+pymysql==1.1.0
+
+# Vector DB
+chromadb==0.4.24
+
+# Environment variables
+python-dotenv==1.0.0
+
+# Embeddings
+sentence-transformers==2.2.2
+huggingface_hub==0.25.2
