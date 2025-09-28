@@ -81,27 +81,7 @@ print("Results:", results)
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# WITHOUT LLM USAGE
 
 # # --- Query vector DB ---
 # query = "list the employee ids who got amount > 90000.00 as salary"
@@ -111,4 +91,5 @@ print("Results:", results)
 # print(f"Query: {query}")
 # for i, doc in enumerate(results):
 #     print(f"{i+1}. {doc.page_content}")
+
 
