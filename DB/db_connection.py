@@ -2,7 +2,7 @@ from sqlalchemy import MetaData, Table,select, create_engine
 
 # Database credentials
 user = 'root'
-password = 'sai06'  # fix typo
+password = 'password'  # fix typo
 host = '127.0.0.1'
 port = 3306
 database = 'rag'
@@ -50,4 +50,5 @@ if __name__ == '__main__':
         print(f"Connection to MySQL at {host} for user {user} created successfully.")
 
     except Exception as ex:
+
         print("Connection could not be made due to the following error:\n", ex)
