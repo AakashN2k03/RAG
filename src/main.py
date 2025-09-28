@@ -37,7 +37,7 @@ from langchain_groq import ChatGroq
 llm = ChatGroq(
     model="gemma2-9b-it",
     temperature=0,
-    groq_api_key="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"
+    groq_api_key="GROQ_API_KEY"
 )
 
 
@@ -111,3 +111,4 @@ print("Results:", results)
 # print(f"Query: {query}")
 # for i, doc in enumerate(results):
 #     print(f"{i+1}. {doc.page_content}")
+
